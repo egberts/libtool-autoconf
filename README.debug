@@ -1,0 +1,8 @@
+
+
+   ./configure --disable-silent-rules
+   make V=1
+
+or in configure.ac:
+
+   AM_SILENT_RULES([yes])
